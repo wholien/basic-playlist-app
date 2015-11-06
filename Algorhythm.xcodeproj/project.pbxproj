@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD641C6A1BEB6C1600DD320C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD641C691BEB6C1600DD320C /* main.m */; };
+		FD641C6D1BEB6C1600DD320C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD641C6C1BEB6C1600DD320C /* AppDelegate.m */; };
+		FD641C701BEB6C1600DD320C /* PlaylistMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD641C6F1BEB6C1600DD320C /* PlaylistMasterViewController.m */; };
+		FD641C731BEB6C1600DD320C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD641C711BEB6C1600DD320C /* Main.storyboard */; };
+		FD641C751BEB6C1600DD320C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD641C741BEB6C1600DD320C /* Images.xcassets */; };
+		FD641C781BEB6C1600DD320C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD641C761BEB6C1600DD320C /* LaunchScreen.xib */; };
+		FD641C841BEB6C1600DD320C /* AlgorhythmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD641C831BEB6C1600DD320C /* AlgorhythmTests.m */; };
+		FD641C8F1BEB707C00DD320C /* PlaylistDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD641C8E1BEB707B00DD320C /* PlaylistDetailViewController.m */; };
+		FD641C921BEC8EBB00DD320C /* MusicLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = FD641C911BEC8EBB00DD320C /* MusicLibrary.m */; };
+		FD641C951BEC961200DD320C /* Playlist.m in Sources */ = {isa = PBXBuildFile; fileRef = FD641C941BEC961200DD320C /* Playlist.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD641C7E1BEB6C1600DD320C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD641C5C1BEB6C1600DD320C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD641C631BEB6C1600DD320C;
+			remoteInfo = Algorhythm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD641C641BEB6C1600DD320C /* Algorhythm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algorhythm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD641C681BEB6C1600DD320C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD641C691BEB6C1600DD320C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD641C6B1BEB6C1600DD320C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FD641C6C1BEB6C1600DD320C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FD641C6E1BEB6C1600DD320C /* PlaylistMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlaylistMasterViewController.h; sourceTree = "<group>"; };
+		FD641C6F1BEB6C1600DD320C /* PlaylistMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlaylistMasterViewController.m; sourceTree = "<group>"; };
+		FD641C721BEB6C1600DD320C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD641C741BEB6C1600DD320C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FD641C771BEB6C1600DD320C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FD641C7D1BEB6C1600DD320C /* AlgorhythmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgorhythmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD641C821BEB6C1600DD320C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD641C831BEB6C1600DD320C /* AlgorhythmTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgorhythmTests.m; sourceTree = "<group>"; };
+		FD641C8D1BEB707B00DD320C /* PlaylistDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaylistDetailViewController.h; sourceTree = "<group>"; };
+		FD641C8E1BEB707B00DD320C /* PlaylistDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaylistDetailViewController.m; sourceTree = "<group>"; };
+		FD641C901BEC8EBB00DD320C /* MusicLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicLibrary.h; sourceTree = "<group>"; };
+		FD641C911BEC8EBB00DD320C /* MusicLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicLibrary.m; sourceTree = "<group>"; };
+		FD641C931BEC961200DD320C /* Playlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Playlist.h; sourceTree = "<group>"; };
+		FD641C941BEC961200DD320C /* Playlist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Playlist.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD641C611BEB6C1600DD320C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD641C7A1BEB6C1600DD320C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD641C5B1BEB6C1600DD320C = {
+			isa = PBXGroup;
+			children = (
+				FD641C661BEB6C1600DD320C /* Algorhythm */,
+				FD641C801BEB6C1600DD320C /* AlgorhythmTests */,
+				FD641C651BEB6C1600DD320C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD641C651BEB6C1600DD320C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD641C641BEB6C1600DD320C /* Algorhythm.app */,
+				FD641C7D1BEB6C1600DD320C /* AlgorhythmTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD641C661BEB6C1600DD320C /* Algorhythm */ = {
+			isa = PBXGroup;
+			children = (
+				FD641C6B1BEB6C1600DD320C /* AppDelegate.h */,
+				FD641C6C1BEB6C1600DD320C /* AppDelegate.m */,
+				FD641C6E1BEB6C1600DD320C /* PlaylistMasterViewController.h */,
+				FD641C6F1BEB6C1600DD320C /* PlaylistMasterViewController.m */,
+				FD641C8D1BEB707B00DD320C /* PlaylistDetailViewController.h */,
+				FD641C8E1BEB707B00DD320C /* PlaylistDetailViewController.m */,
+				FD641C901BEC8EBB00DD320C /* MusicLibrary.h */,
+				FD641C911BEC8EBB00DD320C /* MusicLibrary.m */,
+				FD641C931BEC961200DD320C /* Playlist.h */,
+				FD641C941BEC961200DD320C /* Playlist.m */,
+				FD641C711BEB6C1600DD320C /* Main.storyboard */,
+				FD641C741BEB6C1600DD320C /* Images.xcassets */,
+				FD641C761BEB6C1600DD320C /* LaunchScreen.xib */,
+				FD641C671BEB6C1600DD320C /* Supporting Files */,
+			);
+			path = Algorhythm;
+			sourceTree = "<group>";
+		};
+		FD641C671BEB6C1600DD320C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD641C681BEB6C1600DD320C /* Info.plist */,
+				FD641C691BEB6C1600DD320C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD641C801BEB6C1600DD320C /* AlgorhythmTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD641C831BEB6C1600DD320C /* AlgorhythmTests.m */,
+				FD641C811BEB6C1600DD320C /* Supporting Files */,
+			);
+			path = AlgorhythmTests;
+			sourceTree = "<group>";
+		};
+		FD641C811BEB6C1600DD320C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD641C821BEB6C1600DD320C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD641C631BEB6C1600DD320C /* Algorhythm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD641C871BEB6C1600DD320C /* Build configuration list for PBXNativeTarget "Algorhythm" */;
+			buildPhases = (
+				FD641C601BEB6C1600DD320C /* Sources */,
+				FD641C611BEB6C1600DD320C /* Frameworks */,
+				FD641C621BEB6C1600DD320C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Algorhythm;
+			productName = Algorhythm;
+			productReference = FD641C641BEB6C1600DD320C /* Algorhythm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD641C7C1BEB6C1600DD320C /* AlgorhythmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD641C8A1BEB6C1600DD320C /* Build configuration list for PBXNativeTarget "AlgorhythmTests" */;
+			buildPhases = (
+				FD641C791BEB6C1600DD320C /* Sources */,
+				FD641C7A1BEB6C1600DD320C /* Frameworks */,
+				FD641C7B1BEB6C1600DD320C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD641C7F1BEB6C1600DD320C /* PBXTargetDependency */,
+			);
+			name = AlgorhythmTests;
+			productName = AlgorhythmTests;
+			productReference = FD641C7D1BEB6C1600DD320C /* AlgorhythmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD641C5C1BEB6C1600DD320C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Wholiean;
+				TargetAttributes = {
+					FD641C631BEB6C1600DD320C = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					FD641C7C1BEB6C1600DD320C = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = FD641C631BEB6C1600DD320C;
+					};
+				};
+			};
+			buildConfigurationList = FD641C5F1BEB6C1600DD320C /* Build configuration list for PBXProject "Algorhythm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD641C5B1BEB6C1600DD320C;
+			productRefGroup = FD641C651BEB6C1600DD320C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD641C631BEB6C1600DD320C /* Algorhythm */,
+				FD641C7C1BEB6C1600DD320C /* AlgorhythmTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD641C621BEB6C1600DD320C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD641C731BEB6C1600DD320C /* Main.storyboard in Resources */,
+				FD641C781BEB6C1600DD320C /* LaunchScreen.xib in Resources */,
+				FD641C751BEB6C1600DD320C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD641C7B1BEB6C1600DD320C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD641C601BEB6C1600DD320C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD641C701BEB6C1600DD320C /* PlaylistMasterViewController.m in Sources */,
+				FD641C951BEC961200DD320C /* Playlist.m in Sources */,
+				FD641C8F1BEB707C00DD320C /* PlaylistDetailViewController.m in Sources */,
+				FD641C6D1BEB6C1600DD320C /* AppDelegate.m in Sources */,
+				FD641C6A1BEB6C1600DD320C /* main.m in Sources */,
+				FD641C921BEC8EBB00DD320C /* MusicLibrary.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD641C791BEB6C1600DD320C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD641C841BEB6C1600DD320C /* AlgorhythmTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD641C7F1BEB6C1600DD320C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD641C631BEB6C1600DD320C /* Algorhythm */;
+			targetProxy = FD641C7E1BEB6C1600DD320C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD641C711BEB6C1600DD320C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD641C721BEB6C1600DD320C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD641C761BEB6C1600DD320C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD641C771BEB6C1600DD320C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD641C851BEB6C1600DD320C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FD641C861BEB6C1600DD320C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD641C881BEB6C1600DD320C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Algorhythm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FD641C891BEB6C1600DD320C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Algorhythm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FD641C8B1BEB6C1600DD320C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AlgorhythmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Algorhythm.app/Algorhythm";
+			};
+			name = Debug;
+		};
+		FD641C8C1BEB6C1600DD320C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AlgorhythmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Algorhythm.app/Algorhythm";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD641C5F1BEB6C1600DD320C /* Build configuration list for PBXProject "Algorhythm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD641C851BEB6C1600DD320C /* Debug */,
+				FD641C861BEB6C1600DD320C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD641C871BEB6C1600DD320C /* Build configuration list for PBXNativeTarget "Algorhythm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD641C881BEB6C1600DD320C /* Debug */,
+				FD641C891BEB6C1600DD320C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FD641C8A1BEB6C1600DD320C /* Build configuration list for PBXNativeTarget "AlgorhythmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD641C8B1BEB6C1600DD320C /* Debug */,
+				FD641C8C1BEB6C1600DD320C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD641C5C1BEB6C1600DD320C /* Project object */;
+}

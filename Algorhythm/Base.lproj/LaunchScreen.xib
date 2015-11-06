@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AuK-de-zcQ">
+                    <rect key="frame" x="0.0" y="0.0" width="480" height="240"/>
+                    <color key="backgroundColor" red="0.1803921568627451" green="0.20392156862745098" blue="0.22352941176470587" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="woe-Ig-rsX">
+                    <rect key="frame" x="0.0" y="240" width="480" height="240"/>
+                    <color key="backgroundColor" red="0.18039215689999999" green="0.20392156859999999" blue="0.22352941179999999" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Launch Icon" translatesAutoresizingMaskIntoConstraints="NO" id="u6S-el-pr1">
+                    <rect key="frame" x="180" y="180" width="120" height="120"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="120" id="Nz9-bi-hlr"/>
+                        <constraint firstAttribute="width" constant="120" id="XaJ-E3-6Fp"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="AuK-de-zcQ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="4zb-BS-JG6"/>
+                <constraint firstAttribute="trailing" secondItem="woe-Ig-rsX" secondAttribute="trailing" id="FfM-9f-jLH"/>
+                <constraint firstAttribute="centerX" secondItem="u6S-el-pr1" secondAttribute="centerX" id="GwT-42-mhA"/>
+                <constraint firstItem="woe-Ig-rsX" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="HyJ-rp-ayB"/>
+                <constraint firstItem="woe-Ig-rsX" firstAttribute="top" secondItem="AuK-de-zcQ" secondAttribute="bottom" id="Nw6-k7-eF7"/>
+                <constraint firstItem="AuK-de-zcQ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="UT7-zo-ztB"/>
+                <constraint firstAttribute="centerY" secondItem="u6S-el-pr1" secondAttribute="centerY" id="dNe-Le-I8j"/>
+                <constraint firstAttribute="trailing" secondItem="AuK-de-zcQ" secondAttribute="trailing" id="eFC-j5-HJ1"/>
+                <constraint firstItem="woe-Ig-rsX" firstAttribute="height" secondItem="AuK-de-zcQ" secondAttribute="height" id="k2C-Z5-hpw"/>
+                <constraint firstAttribute="bottom" secondItem="woe-Ig-rsX" secondAttribute="bottom" id="wkK-ii-SP8"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="548" y="455"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Launch Icon" width="120" height="120"/>
+    </resources>
+</document>
